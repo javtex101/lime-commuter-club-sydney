@@ -223,7 +223,9 @@ body{font-family:'Urbanist',sans-serif;background:#fff;color:var(--text);overflo
 #end-screen.visible .end-lime-logo{opacity:1}
 
 @media(max-width:700px){
+  .journey-grid{grid-template-columns:1fr!important}
   .what-is-grid{grid-template-columns:repeat(2,1fr)!important}
+  .journey-grid{grid-template-columns:repeat(2,1fr)!important}
   /* Stack phone rows vertically */
   .phone-row,.tips-phone-outer{flex-direction:column;align-items:center;gap:28px}
   .phone-context{max-width:100%;padding-top:0;width:100%}
@@ -272,7 +274,7 @@ body{font-family:'Urbanist',sans-serif;background:#fff;color:var(--text);overflo
 <div class="scene-divider"></div>
 
 <section class="scene" id="what-is-section" style="flex-direction:column;background:#fff;">
-  <p class="section-label reveal">Lime Sydney &middot; Commuter Club</p>
+  <p class="section-label reveal">Strategy</p>
   <h2 class="section-title reveal reveal-delay-1">What is the Lime Commuter Club?</h2>
   <p class="reveal reveal-delay-1" style="font-size:.93rem;color:#555;line-height:1.75;max-width:640px;text-align:center;margin:0 0 8px;">The Lime Commuter Club gives Sydney's team a direct channel to its most active riders, real intelligence for operational decisions, and a pipeline of community voices for government relations.</p>
   <div class="reveal reveal-delay-2 what-is-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;width:100%;max-width:860px;margin-top:24px;align-items:start;">
@@ -387,6 +389,89 @@ body{font-family:'Urbanist',sans-serif;background:#fff;color:var(--text);overflo
           <p style="font-size:.78rem;color:#555;line-height:1.65;margin:0;">Events, perks and recognition increase lifetime value and turn loyal members into new rider referrals.</p>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<div class="scene-divider"></div>
+
+<section class="scene" id="journey-section" style="flex-direction:column;background:#fff;">
+  <p class="section-label reveal">Tactics</p>
+  <h2 class="section-title reveal reveal-delay-1">Member Journey</h2>
+  <div class="reveal reveal-delay-2" style="width:100%;max-width:900px;margin-top:24px;">
+    <div class="j-grid">
+      <div class="j-col"><div style="border:1.5px solid #a8d8a0;border-radius:12px;overflow:hidden;display:flex;flex-direction:column;align-items:center;text-align:center;background:#fff;height:100%;">
+        <div style="width:100%;background:#4aab3c;color:#fff;font-size:10px;font-weight:600;padding:5px 0;letter-spacing:.1em;text-transform:uppercase;">Attract</div>
+        <div style="padding:14px 12px 16px;display:flex;flex-direction:column;align-items:center;gap:10px;width:100%;box-sizing:border-box;flex:1;">
+          <div style="width:32px;height:32px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 189 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M118.25 51.2902C131.225 64.2406 131.225 85.2734 118.25 98.2684C105.28 111.219 84.2447 111.219 71.2748 98.2684C58.3003 85.2734 58.3003 64.2406 71.2748 51.2902C84.2447 38.2952 105.28 38.2952 118.25 51.2902Z" stroke="#00AB4E" stroke-width="8.30466" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M40.7822 149.505C46.837 127.818 68.7087 107.981 94.7625 107.981C120.816 107.981 142.688 127.818 148.743 149.505" stroke="#00AB4E" stroke-width="8.30466" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div>
+          <p style="font-size:.82rem;font-weight:600;color:#111;margin:0;">First contact</p>
+          <div style="width:100%;height:1px;background:#eee;"></div>
+          <div style="display:flex;flex-direction:column;gap:3px;width:100%;text-align:left;"><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;Handouts</p><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;Social campaigns</p><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;Emerald+ rider emails</p><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;Word of mouth</p></div>
+        </div>
+      </div></div><div class="j-sep"><div class="j-arr-h"><svg width="22" height="16" viewBox="0 0 22 16" fill="none"><path d="M2 8 L17 8 M12 3 L18 8 L12 13" stroke="#bbb" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="j-arr-v"><svg width="16" height="22" viewBox="0 0 16 22" fill="none"><path d="M8 2 L8 17 M3 13 L8 19 L13 13" stroke="#bbb" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div><div class="j-col"><div style="border:1.5px solid #8bc87f;border-radius:12px;overflow:hidden;display:flex;flex-direction:column;align-items:center;text-align:center;background:#fff;height:100%;">
+        <div style="width:100%;background:#2e8c22;color:#fff;font-size:10px;font-weight:600;padding:5px 0;letter-spacing:.1em;text-transform:uppercase;">Engage</div>
+        <div style="padding:14px 12px 16px;display:flex;flex-direction:column;align-items:center;gap:10px;width:100%;box-sizing:border-box;flex:1;">
+          <div style="width:32px;height:32px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 190">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #00ab4e;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8.3px;
+      }
+    .j-grid{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;gap:0;align-items:stretch;width:100%;}
+.j-col{min-width:0;display:flex;flex-direction:column;}
+.j-sep{display:flex;align-items:flex-start;justify-content:center;padding-top:52px;}
+.j-arr-h{display:flex;align-items:center;}
+.j-arr-v{display:none;justify-content:center;}
+@media(max-width:700px){
+  .j-grid{grid-template-columns:1fr!important;gap:0;justify-items:center;}
+  .j-col{width:100%;max-width:280px;}
+  .j-sep{padding-top:0!important;justify-content:center;width:100%;max-width:280px;}
+  .j-arr-h{display:none!important;}
+  .j-arr-v{display:flex!important;}
+}
+</style>
+  </defs>
+  <circle class="cls-1" cx="147.94" cy="124.61" r="21.51"/>
+  <path class="cls-1" d="M148.97,125.07l-34.43-81.19h-15.61"/>
+  <path class="cls-1" d="M129.24,81.77l-29.79,44.27M99.46,126.03h-59.34l12.7-30.04h32.61M99.46,126.03l-26.79-57.34h-14.89"/>
+  <path class="cls-1" d="M47.86,103.9c-1.84-.52-3.79-.79-5.8-.79-11.88,0-21.51,9.63-21.51,21.51s9.63,21.51,21.51,21.51c11.14,0,20.29-8.46,21.4-19.31"/>
+</svg></div>
+          <p style="font-size:.82rem;font-weight:600;color:#111;margin:0;">Conversion</p>
+          <div style="width:100%;height:1px;background:#eee;"></div>
+          <div style="display:flex;flex-direction:column;gap:3px;width:100%;text-align:left;"><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;Sign-up form</p><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;Welcome email</p><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;New rider referral code</p><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;First Rider Academy</p></div>
+        </div>
+      </div></div><div class="j-sep"><div class="j-arr-h"><svg width="22" height="16" viewBox="0 0 22 16" fill="none"><path d="M2 8 L17 8 M12 3 L18 8 L12 13" stroke="#bbb" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="j-arr-v"><svg width="16" height="22" viewBox="0 0 16 22" fill="none"><path d="M8 2 L8 17 M3 13 L8 19 L13 13" stroke="#bbb" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div><div class="j-col"><div style="border:1.5px solid #6aae5f;border-radius:12px;overflow:hidden;display:flex;flex-direction:column;align-items:center;text-align:center;background:#fff;height:100%;">
+        <div style="width:100%;background:#1a6e10;color:#fff;font-size:10px;font-weight:600;padding:5px 0;letter-spacing:.1em;text-transform:uppercase;">Delight</div>
+        <div style="padding:14px 12px 16px;display:flex;flex-direction:column;align-items:center;gap:10px;width:100%;box-sizing:border-box;flex:1;">
+          <div style="width:32px;height:32px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 189 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M87.293 43.944L54.2122 103.905V103.905C52.3829 107.163 53.3758 111.386 56.4299 113.337C57.3983 113.956 58.5019 114.293 59.6305 114.313H90.6042V144.477V144.477C90.5306 148.188 93.2911 151.26 96.7701 151.339C99.0569 151.39 101.19 150.116 102.344 148.009L135.425 88.0703V88.0703C137.254 84.8123 136.261 80.5892 133.207 78.6378C132.239 78.019 131.135 77.6824 130.006 77.6616H99.0327V47.5096V47.5096C99.1243 43.7987 96.3786 40.7113 92.9001 40.6137C90.6014 40.5491 88.4523 41.8256 87.293 43.944V43.944Z" stroke="#00AB4E" stroke-width="8.30466" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div>
+          <p style="font-size:.82rem;font-weight:600;color:#111;margin:0;">Relationship</p>
+          <div style="width:100%;height:1px;background:#eee;"></div>
+          <div style="display:flex;flex-direction:column;gap:3px;width:100%;text-align:left;"><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;Feedback form</p><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;Monthly newsletter</p><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;Parking guidance</p><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;Monthly rides</p><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;Rider spotlights</p></div>
+        </div>
+      </div></div><div class="j-sep"><div class="j-arr-h"><svg width="22" height="16" viewBox="0 0 22 16" fill="none"><path d="M2 8 L17 8 M12 3 L18 8 L12 13" stroke="#bbb" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="j-arr-v"><svg width="16" height="22" viewBox="0 0 16 22" fill="none"><path d="M8 2 L8 17 M3 13 L8 19 L13 13" stroke="#bbb" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div><div class="j-col"><div style="border:1.5px solid #4a8e40;border-radius:12px;overflow:hidden;display:flex;flex-direction:column;align-items:center;text-align:center;background:#fff;height:100%;">
+        <div style="width:100%;background:#0d5205;color:#fff;font-size:10px;font-weight:600;padding:5px 0;letter-spacing:.1em;text-transform:uppercase;">Loyalty</div>
+        <div style="padding:14px 12px 16px;display:flex;flex-direction:column;align-items:center;gap:10px;width:100%;box-sizing:border-box;flex:1;">
+          <div style="width:32px;height:32px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 189 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M59.0501 150.281H47.628C44.4755 150.281 41.917 147.722 41.917 144.57V110.303C41.917 107.151 44.4755 104.592 47.628 104.592H59.0501C62.2026 104.592 64.7612 107.151 64.7612 110.303V144.57C64.7612 147.722 62.2026 150.281 59.0501 150.281Z" stroke="#00AB4E" stroke-width="8.30466" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M99.2038 127.167H112.164C114.57 127.167 116.909 126.296 118.831 124.678L132.252 113.404C135.602 110.591 140.291 110.964 143.252 114.281C146.541 117.964 146.541 123.931 143.252 127.609L131.736 140.507C128.636 143.979 124.681 146.35 120.381 147.314L104.104 150.96C100.876 151.682 97.5483 151.595 94.354 150.699L79.6324 146.58C77.8713 146.082 76.0659 145.833 74.2493 145.833H65.8718" stroke="#00AB4E" stroke-width="8.30466" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M98.8673 127.436H107.348C112.128 127.436 116 123.564 116 118.784V117.054C116 113.085 113.299 109.624 109.45 108.664L96.3602 105.392C94.23 104.861 92.0483 104.592 89.8553 104.592C84.5612 104.592 79.3813 106.157 74.978 109.098L64.6011 116.014" stroke="#00AB4E" stroke-width="8.30466" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122.674 58.7169C129.004 65.0465 129.004 75.3088 122.674 81.6384C116.345 87.968 106.082 87.968 99.7527 81.6384C93.4231 75.3088 93.4231 65.0465 99.7527 58.7169C106.082 52.3873 116.345 52.3873 122.674 58.7169Z" stroke="#00AB4E" stroke-width="8.30466" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M108.181 54.2791C107.65 51.0523 106.177 47.9512 103.687 45.4612C97.3589 39.1334 87.0962 39.1334 80.7683 45.4612C74.4405 51.789 74.4405 62.0518 80.7683 68.3796C84.709 72.3202 90.1687 73.7994 95.2572 72.8342" stroke="#00AB4E" stroke-width="8.30466" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div>
+          <p style="font-size:.82rem;font-weight:600;color:#111;margin:0;">Giving back</p>
+          <div style="width:100%;height:1px;background:#eee;"></div>
+          <div style="display:flex;flex-direction:column;gap:3px;width:100%;text-align:left;"><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;Merch</p><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;Community events</p><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;Local business perks</p><p style="font-size:.78rem;color:#555;margin:0;line-height:1.7;text-align:left;">&ndash;&nbsp;Prizes</p></div>
+        </div>
+      </div></div>
     </div>
   </div>
 </section>
